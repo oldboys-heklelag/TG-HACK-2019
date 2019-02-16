@@ -1,0 +1,21 @@
+Pwntions 2
+
+Author: Marit Iren - maritio_o
+
+"Remember those lectures about Pwnie? Now is your chance to show what you've learned!"
+
+—Professor maritio_o
+
+Our beloved house elf is unfortunate to be vulnerable to the stack overflow pwntions.
+
+This time, we want you to take the given ingredients and brew the pwntion so that his ears turns equally large as the nose?
+
+Take these files for local pwning, the source code and the binary.
+
+nc pwntion2.tghack.no 1062
+
+Tips
+
+    The file expects to read a file called banner.txt. For the binary to work locally, you should make a file with that name and put whatever you would like into it.
+
+    Read the Stack Overflow pt. 2 section in the Introduction to Pwntions tutorial to learn about this type of stack overflow problem.

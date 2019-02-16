@@ -1,0 +1,17 @@
+Pwntions 3
+
+Author: Marit Iren - maritio_o
+
+"It's still magic even if you know how it's all done."
+
+—Professor maritio_o' closing of the class
+
+Now, Pwnie holds a deeper secret than the other pwntions could get to. Using a special mixture in your new pwntion, you may get this secret as well. Remember to use a hint of return address and get to to the function in your pwntion, and you will get it right.
+
+I give you these ingredients as help for the final exam: 1. source code 2. binary file
+
+nc pwntion3.tghack.no 1063
+
+Tip
+
+Read the Stack Overflow pt. 3 section in the Introduction to Pwntions tutorial to learn about this type of stack overflow problem.

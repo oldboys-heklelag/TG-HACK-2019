@@ -1,0 +1,10 @@
+Math Bonanza
+
+Author: Christian Resell - PewZ
+
+Can you answer 1000 math questions?
+
+nc math.tghack.no 10000
+Tip
+
+You are supposed to use pwntools as shown in the Python tutorial to solve this task. 
