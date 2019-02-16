@@ -1,0 +1,7 @@
+Hacking Mother's Network
+
+Author: Marit Iren - maritio_o
+
+The TG:Hack crew had some real problems hosting the competition when it turned out Mother had removed their access. When they finally gained the access, Mother sneaked in some secret information. In TG:Hack, we call that information a flag. A flag looks like this: TG19{fancy_text_inside1337}. Did you see it?
+
+https://www.facebook.com/watch/?v=627838417645806
