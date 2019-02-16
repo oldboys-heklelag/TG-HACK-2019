@@ -1,0 +1,1 @@
+Decode the string as base64 to get the flag
