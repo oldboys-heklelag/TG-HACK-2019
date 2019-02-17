@@ -1,0 +1,12 @@
+Numbers or Bytes?
+
+Author: Christian Resell - PewZ
+
+Can you convert some numbers and bytes for us? Do it 1000 times, and you shall receive the flag!
+
+nc bytes.tghack.no 2010
+
+NB! Use bytes_to_long and long_to_bytes :) And remember to hexlify the result of long_to_bytes before sending it to the server.
+Tip
+
+You are supposed to use pwntools (https://github.com/Gallopsled/pwntools) as shown in the Python tutorial to solve this task. 
