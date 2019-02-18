@@ -1,0 +1,12 @@
+Let's Hash it Out
+
+Author: Christian Resell - PewZ
+
+Remember the spells from Echo Chamber? Well, they're back! You will have to answer 1000 questions before you get the flag.
+
+nc hash.tghack.no 2001
+
+
+Tip
+
+You are supposed to use pwntools (https://github.com/Gallopsled/pwntools) as shown in the Python tutorial to solve this task. 
