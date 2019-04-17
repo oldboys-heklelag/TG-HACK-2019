@@ -1,0 +1,8 @@
+The pictures are:
+Tux
+Ada Lovelace
+Richard Stallman
+Margaret Hamilton
+Linus Torvalds
+
+For the flag: TG19{TALRSMHLT}
