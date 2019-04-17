@@ -1,0 +1,1 @@
+File is a partition. Mount the partition and look at the image within for the flag
