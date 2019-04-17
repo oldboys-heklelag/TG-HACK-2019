@@ -1,0 +1,3 @@
+Connecting to the server reveals a very limited shell. Inspecting the bash history of the user reveals that an executable was written to /tmp/lol
+
+Running this executable escalates you to root, which allows you to read the flag from the flag.txt-file
