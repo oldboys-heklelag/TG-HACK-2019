@@ -1,0 +1,1 @@
+Change access_token cookie value from "divination:student" to "divination:professor"
