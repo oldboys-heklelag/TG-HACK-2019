@@ -1,3 +1,3 @@
 # ctf
 
-CTF tasks and solutions
+CTF tasks and solutions for TG:HACK 2019
