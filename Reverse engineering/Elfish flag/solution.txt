@@ -1,0 +1,42 @@
+NOTE: This task was rated as "easy", and this is definitely NOT the intended solution.
+
+Used retdec to decompile the binary, and found the part of the code that checks your input towards the flag:
+
+while ((int32_t)*(char *)(v3 + (int64_t)a1) + 100 == (int32_t)v4) {
+
+a1 is the string you input, v3 is a counter that increments for each pass and v4 is the v3th index of the flag string
+the string is stored in memory, but with each char 100 higher than it actually is.
+
+I eventually found the comparison in gdb at address 0x000055555555521b, and set a breakpoint there.
+
+The comparison is between eax and ecx, where eax contains the current char of the flag, while ecx contains the same index char
+of the input to the program.
+
+we then simply print eax at each stop, set ecx to the same value  and write it down(minus 100) and continue.
+
+We know from other parts of the disassembled code that the flag is 25 characters long, so do this 25 times(or until you meet a null byte)
+
+example:
+
+Breakpoint 3, 0x000055555555521b in flaggy ()
+(gdb) print $eax
+$43 = 210
+(gdb) set $ecx = 210
+(gdb) c
+Continuing.
+
+Breakpoint 3, 0x000055555555521b in flaggy ()
+(gdb) print $eax
+$44 = 200
+(gdb) set $ecx = 200
+(gdb) c
+Continuing.
+
+Breakpoint 3, 0x000055555555521b in flaggy ()
+(gdb) print $eax
+$45 = 225
+(gdb) set $ecx = 225
+(gdb) c
+Continuing.
+
+We then convert the ascii values we wrote down to text to get the flag.
