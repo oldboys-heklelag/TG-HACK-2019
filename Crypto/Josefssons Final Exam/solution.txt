@@ -1,0 +1,1 @@
+From binary > XOR utf-8 with key: good_luck > rot18 > base64 decode

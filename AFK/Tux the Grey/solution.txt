@@ -1,0 +1,4 @@
+A Tux teddy-bear in the TG:Hack area had a lanyard around his neck with a pigpen cipher of the flag.
+
+The key was the standard one shown on wikipedia:
+https://en.wikipedia.org/wiki/Pigpen_cipher#/media/File:Pigpen_cipher_key.svg

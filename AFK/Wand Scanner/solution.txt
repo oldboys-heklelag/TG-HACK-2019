@@ -1,0 +1,5 @@
+The stand had a barcode scanner and "Wands" with barcodes you could scan. The barcodes contained an id, and when you scanned a wand it would output information regarding the wand.
+
+Create and scan an SQL-injecting barcode to dump the entire contents of the table:
+
+a' or 1=1;--

@@ -1,0 +1,7 @@
+Elfish flag
+
+Author: Bendik Hagen - bolzzy
+
+Download Binary.
+
+29110dec84a163536b6e5c6a7b046ccac08858602223095a848d79865773a954  elfish.elf

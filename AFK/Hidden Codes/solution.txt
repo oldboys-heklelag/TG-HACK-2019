@@ -1,0 +1,5 @@
+The QR codes contained assembly.
+
+Putting these together in the right order(and reordering some of the code), and compiling yields an executable that outputs the flag.
+
+gcc solution.s -o flag.elf

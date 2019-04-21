@@ -1,0 +1,5 @@
+Bytecodes
+
+Author: PewZ
+
+Someone gave me this magical pyc file. Can you figure out what the secret code is?
